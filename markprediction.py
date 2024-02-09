@@ -276,7 +276,7 @@ def predict_marks_and_plot_pass_fail_gender_hostel(dataset):
     plot_pass_fail_subjects_gender_hostel_bar_graph(pass_fail_counts)
 
 
-your_actual_dataset = {
+actual_dataset = {
     "oneyr":{
             "CB22001":{
                 "name":"Etvg",
@@ -382,7 +382,7 @@ your_actual_dataset = {
 
     }
 }
-predict_marks_and_plot_pass_fail_gender_hostel(your_actual_dataset)
+predict_marks_and_plot_pass_fail_gender_hostel(actual_dataset)
 
 
 
